@@ -8,22 +8,25 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>Playlist Hashtag</h1>
-    <img src="./assents/gusttavolima.png" alt="Gustavo Lima">
-    <div id="below-cover">
-        <div id="song-info">
-            <div>Nome da música</div>
-            <div>Nome da banda</div>
+    <div class="music-container">
+        <h1 id="playlist-title">Playlist Hashtag</h1>
+        <img id="cover" src="./assets/gusttavolima.png" alt="Gustavo Lima">
+        <div id="below-cover">
+            <div id="song-info">
+                <div>Nome da música</div>
+                <div>Nome da banda</div>
+            </div>
+            <div id="like" class="button"><i class="bi bi-heart"></i></div>
         </div>
-        <div id="like" class="button"><i class="bi bi-heart"></i></div>
+        <div>Barra de progresso</div>
+        <div id="button-container">
+            <div id="shuffle" class="button"><i class="bi bi-shuffle"></i></div>
+            <div id="precious" class="button button-navigate"><i class="bi bi-skip-backward-circle"></i></div>
+            <div id="play" class="button button-biggest"><i class="bi bi-play-circle"></i></div>
+            <div id="next" class="button button-navigate"><i class="bi bi-skip-forward-circle"></i></div>
+            <div id="repeat" class="button"><i class="bi bi-arrow-counterclockwise"></i></div>
+        </div>
     </div>
-    <div>Barra de progresso</div>
-    <div id="button-container">
-        <div id="shuffle" class="button"><i class="bi bi-shuffle"></i></div>
-        <div id="precious" class="button button-navigate"><i class="bi bi-skip-backward-circle"></i></div>
-        <div id="play" class="button button-biggest"><i class="bi bi-play-circle"></i></div>
-        <div id="next" class="button button-navigate"><i class="bi bi-skip-forward-circle"></i></div>
-        <div id="repeat" class="button"><i class="bi bi-arrow-counterclockwise"></i></div>
-    </div>
+   
 </body>
 </html>
